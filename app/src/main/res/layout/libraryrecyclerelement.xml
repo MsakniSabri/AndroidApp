@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        android:gravity="center"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:contentPadding="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/randomText"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/custumfont"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            tools:text="This is some temp text" />
+
+
+
+        <TextView
+            android:id="@+id/randomText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            tools:text="This is some temp text" />
+
+        <TextView
+            android:id="@+id/randomText3"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            tools:text="This is some temp text" />
+
+
+
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
